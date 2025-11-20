@@ -49,8 +49,5 @@ Cardinalities indicate the nature of relationships facilitating database normali
 
 The ERD reflects a real-world library workflow accommodating user management, resource tracking, and administrative oversight.
 
-
-
-
-Tools and Design
+# Tools and Design
 The ERD was created using Canva for a clean, visually appealing presentation.
