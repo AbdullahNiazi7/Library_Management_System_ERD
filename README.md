@@ -1,6 +1,6 @@
 # Library Management System ERD
 
-#Overview
+# Overview
 This project presents the Entity Relationship Diagram (ERD) for a Library Management System designed to model the data structure and relationships of a comprehensive library environment. The ERD was created using Canva and aims to provide a clear, organized visualization of key entities, their attributes, and how they interrelate within the system.
 
 # Purpose
