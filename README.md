@@ -1,18 +1,12 @@
-Library Management System ERD
+# Library Management System ERD
 
-
-Overview
+#Overview
 This project presents the Entity Relationship Diagram (ERD) for a Library Management System designed to model the data structure and relationships of a comprehensive library environment. The ERD was created using Canva and aims to provide a clear, organized visualization of key entities, their attributes, and how they interrelate within the system.
 
-
-
-Purpose
+# Purpose
 The ERD serves to capture all relevant data components needed to manage library operations including book cataloging, member management, staff oversight, reservations, fines, and reporting. It offers a blueprint for database design and implementation for efficient library management.
 
-
-
-
-Entities and Attributes
+# Entities and Attributes
 Library Branch: Identified by Branch ID, with attributes such as Name, Address, and linked Departments.
 
 Department: Contains Department ID, Name, Manager ID, linked to Staff and Library Branches.
@@ -33,12 +27,7 @@ Reports: Includes Report ID, User ID, ISBN, Title, and Staff ID.
 
 System: Records Login ID, User Name, Password, linked to Staff for login management.
 
-
-
-
-
-
-Relationships
+# Relationships
 One Publisher can publish many Books (1:M).
 
 Books can be maintained by multiple Staff members (M:N).
@@ -53,10 +42,7 @@ Departments have multiple Staff members and belong to a Library Branch (1:M and 
 
 Staff have a hierarchical reporting structure via Manager ID (self-relationship).
 
-
-
-
-Additional Details
+# Additional Details
 Primary keys and foreign keys have been defined for each entity to maintain integrity.
 
 Cardinalities indicate the nature of relationships facilitating database normalization.
